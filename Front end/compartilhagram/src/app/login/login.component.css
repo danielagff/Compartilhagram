@@ -1,0 +1,85 @@
+.container
+{
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.box
+{
+  position: absolute;
+  width: 480px;
+  height: 580px;
+  background: chartreuse;
+  background: linear-gradient(180deg, #ACCBEE 0%, rgba(255, 255, 255, 0) 100%), #E7F0FD;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  position: absolute;
+ 
+  }
+
+body
+{
+  margin: 0px;
+}
+
+.botoes
+{
+  position: absolute;
+  width: 364px;
+  height: 53px;
+  
+  
+  border-radius: 3px;
+}
+input
+{
+  
+  
+width: 364px;
+height: 40px;
+border: none;
+background: rgba(249, 249, 249, 0.5);
+border-radius: 3px;
+font-family: San Francisco;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;  
+
+color: rgba(0, 0, 0, 0.5);
+}
+.botaoLogin
+{
+
+width: 364px;
+height: 40px;
+
+background: #92BFF2;
+border-radius: 5px; 
+font-family: San Francisco;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+
+color: #FFFFFF;
+}
+
+.trocaCor
+{
+  font-family: San Francisco;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  
+  
+  color: #444444;
+  
+}

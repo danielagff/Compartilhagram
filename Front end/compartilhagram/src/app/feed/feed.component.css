@@ -1,0 +1,43 @@
+#corNavBar
+{
+background-color: #76C7FD;
+}
+
+#arredonda
+{
+  
+
+background: #FFFFFF;
+border: none;
+border-radius:  17px;
+}
+
+#afastaItensNav
+{
+    padding: 10px;
+}
+#perfil
+{
+    width: 147px;
+height: 40px;
+
+background: #FFFFFF;
+border: 3px solid #46A6E4;
+box-sizing: border-box;
+border-radius: 21px;
+}
+
+#imgPerfil
+{
+    
+width: 32px;
+height: 32px;
+border-radius: 70px;
+padding: 2px;
+
+}
+.tamanhoIcons
+{
+        width: 30px;
+        height: 30px;
+}
