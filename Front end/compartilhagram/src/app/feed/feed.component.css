@@ -41,3 +41,94 @@ padding: 2px;
         width: 30px;
         height: 30px;
 }
+
+
+
+
+
+
+
+
+
+
+#caixa
+{
+    width: 588px;
+    height: 178px;
+    
+
+background: #FBFBFB;
+border: 1px solid rgba(0, 0, 0, 0.15);
+box-sizing: border-box;
+border-radius: 6px 5px 6px 6px;
+}
+
+#caixa2
+{
+    width: 225px;
+height: 201px;
+
+background: #FBFBFB;
+border: 1px solid rgba(0, 0, 0, 0.15);
+box-sizing: border-box;
+border-radius: 6px 5px 6px 6px;
+
+}
+
+#caixa3
+{
+width: 282px;
+height: 240px;
+
+
+
+background: #FBFBFB;
+border: 1px solid rgba(0, 0, 0, 0.15);
+box-sizing: border-box;
+border-radius: 6px 5px 6px 6px;
+}
+
+#caixa4
+{
+    width: 230px;
+height: 240px;
+
+background: #FBFBFB;
+border: 1px solid rgba(0, 0, 0, 0.15);
+box-sizing: border-box;
+border-radius: 6px 5px 6px 6px;
+
+}
+
+#stories
+{
+    width: 124px;
+height: 181px;
+border: 1px solid rgba(0, 0, 0, 0.15);
+background :#FBFBFB;
+
+border-radius: 8px;
+}
+
+
+#postagem
+{
+    width: 542px;
+height: 40px;
+
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.1);
+box-sizing: border-box;
+border-radius: 31px;
+}
+
+#caixa5
+{
+    width: 588px;
+height: 600px;
+
+background: #FBFBFB;
+border: 1px solid rgba(0, 0, 0, 0.15);
+box-sizing: border-box;
+border-radius: 6px 5px 6px 6px;
+}
