@@ -15,16 +15,11 @@
           <li id="afastaItensNav" class="nav-item ">
             <div id="perfil" class="box">
               <li>
-            <a class="" href="">
+            <a class="align-items-center" href="">
                <img class="ml-1" id="imgPerfil" src="https://i.imgur.com/I8oFyUk.jpg" alt="teste"> Gabriel
             </a>
               </li>
-              
-
-
-              
-
-              
+                
           </div>
             
            </li>  
@@ -103,14 +98,25 @@
             
             <div>
               <div class="row d-flex ml-5 mt-4">
-                <h6 class=" ">Criar Nova Postagem  </h6>
+                <h6 class=" "> Criar Nova Postagem  </h6>
               </div>
-              
-            </div>
-              
-            <div  class="d-flex justify-content-center mt-3">
-              <input id="postagem" type="text" >
+           </div>
+           
+           <div class="row ">
+             <div class="col-7 ">
+              <button id="postagem"  class="d-flex justify-content-start align-items-center ml-3 mt-3" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo"> 
+               <img class="ml-1" src="https://i.imgur.com/CesaXLN.png" width="20px" height="20px" alt=""> 
+               <div class="ml-3">
+                 Bora Postar ?
+               </div>
+              </button>
              </div>
+           </div>
+
+           
+
+
+            
                
              <footer class="mt-3">
                <div class="row d-flex justify-content-around">
@@ -188,6 +194,40 @@
      
  <!--Publicações-->
 
+  
+ <!--MORDAL DE POSTAGENS-->
+
+ <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Recipient:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="form-group">
+            <label for="message-text" class="col-form-label">Message:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Send message</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+ 
+ <!--MODAL DE POSTAGENS-->
 
 
  
