@@ -105,7 +105,9 @@ border-radius: 6px 5px 6px 6px;
     width: 124px;
 height: 181px;
 border: 1px solid rgba(0, 0, 0, 0.15);
-background :#FBFBFB;
+background-image: url(https://i.imgur.com/I8oFyUk.jpg);
+background-size: 160px;
+
 
 border-radius: 8px;
 }
@@ -134,7 +136,7 @@ border-radius: 31px;
 #caixa5
 {
     width: 588px;
-height: 600px;
+height: 700px;
 
 background: #FBFBFB;
 border: 1px solid rgba(0, 0, 0, 0.15);
@@ -191,4 +193,20 @@ height: 50px;
 border: 2px solid #8a8787;
 box-sizing: border-box;
 border-radius: 305px;
+}
+
+#letraAnuncio
+{
+font-family: San Francisco;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 18px;
+color: #898989;
+}
+#imgStories
+{
+    width: 122px;
+    height: 179px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
 }
